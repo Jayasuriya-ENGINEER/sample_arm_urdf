@@ -1,0 +1,14 @@
+										+-------------------+
+										|    URDF JAZZY	    |
+										+-------------------+
+
+1) install urdf
+	sudo apt install ros-jazzy-urdf-tutorial
+ so, i am using, jazzy i use , urdf-jazzy, if you are using ros2-humble then install it's desired version
+
+2)create a file with extension .urdf
+	as i created , the sample one with the name arm.urdf
+
+3) Launch this file
+	ros2 launch urdf_tutorial display.launch.py model:=/home/jaya/arm.urdf
+ 
